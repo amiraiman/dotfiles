@@ -1,0 +1,2 @@
+UUID=XXX /path/to/mount/point ntfs-3g defaults,uid=1000,gid=1000,umask=022 0 0
+UUID=XXX /path/to/mount/point ext4 defaults 0 2
