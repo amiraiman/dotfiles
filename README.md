@@ -1,18 +1,20 @@
-# Personal config files
+# Dotfiles
 
-## VIM
+Files & folders location in this repo are mapped to their actual location on a filesystem, except for: 
+- `home/*` mapped to `$HOME/*`
 
-## ZSH
+## DE
 
-## Keyboard Remap
+### Gnome
 
-Remap caps lock to esc when pressed or ctrl when hold
+1. Set workspaces to 10 (fixed)
+2. Change hotkey for switch-to-workspace to `mod+n` (0 -> 10)
+3. Change hotkey for move-to-workspace to `mod+shift+n` (0 -> 10)
 
-### 1) Install xcape and setxkbmap
+## Applications
 
-sudo apt-get install xcape
+### Keyd
 
-### 2) Excecute script
+Swap `capslock` with `esc`, and overload it with `ctrl` to become `ctrl` when held and `esc` when pressed.
 
-sudo chmod 777 /path/to/script  
-./path/to/script
+### Zsh & OMZ
