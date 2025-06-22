@@ -15,6 +15,13 @@ Files & folders location in this repo are mapped to their actual location on a f
 
 ### Keyd
 
+@`/etc/keyd/default.conf`
 Swap `capslock` with `esc`, and overload it with `ctrl` to become `ctrl` when held and `esc` when pressed.
 
 ### Zsh & OMZ
+
+@`/home/.zshrc`
+zsh & oh-my-zsh with some sane plugins enabled:
+- git
+- vi-mode
+- zsh-autosuggestions
